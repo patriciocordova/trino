@@ -56,6 +56,6 @@ angular.module('starter.controllers', [])
 })
 
 .controller('HomeCtrl', function($scope) {
-  $scope.hola = "Hello";
+  $scope.helloWorld = "Hello human";
 })
 ;
