@@ -60,7 +60,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova', 'ngStora
         controller: 'PlaylistCtrl'
       }
     }
-  });
+  })
+
+  .state('app.login2', {
+    url: '/login2',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/login.html',
+        controller: ''
+      }
+    }
+  })
+  ;
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
 });
