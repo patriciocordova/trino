@@ -66,7 +66,7 @@ angular.module('starter.controllers', [])
             $localStorage.accessToken = result.access_token;
             $location.path("/profile");
         }, function(error) {
-            alert("There was a problem signing in!  See the console for logs");
+            alert("There was a problem signing in! See the console for logs");
             console.log(error);
         });
     };
