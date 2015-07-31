@@ -101,7 +101,7 @@ angular.module('starter.controllers', [])
                     $scope.feedData.myPicture = result.data.picture.data.url;
                 });
             }, function(error) {
-                alert("There was a problem getting your profile.  Check the logs for details.");
+                alert("There was a problem getting your profile. Check the logs for details.");
                 console.log(error);
             });
         } else {
