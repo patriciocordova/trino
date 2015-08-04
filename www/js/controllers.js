@@ -90,6 +90,5 @@ angular.module('starter.controllers', [])
     };
  
 })
- 
 })
 ;
